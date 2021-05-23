@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
 
- root {
-    --primary-color:green;
-}
 
+:root 
+{
+  --primary-color: red;
+     
+}
 
 
 
@@ -32,12 +34,19 @@ height:50px;
 margin: auto;
 padding-left: 1rem;
 padding-right:1rem ;
-
 }
 
 .primary-link
 {
-
-color:var(--primary-color);
+   background-color: var(--primary-color)
 
 }
+
+
+
+
+
+
+
+
+
