@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+ root {
+    --primary-color:green;
+}
+
+
+
+
+
+body {
+    font-family: 'Pattaya', 
+    sans-serif;
+}
+
+.centered
+{
+
+ padding-left: 4rem;
+ padding-right: 2rem;
+ margin: auto;
+}
+h1
+{
+    color:brown;
+}
+
+.greatime
+{
+width: 300px;
+height:50px;
+margin: auto;
+padding-left: 1rem;
+padding-right:1rem ;
+
+}
+
+.primary-link
+{
+
+color:var(--primary-color);
+
+}
