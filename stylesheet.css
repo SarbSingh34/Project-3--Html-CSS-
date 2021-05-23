@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root 
 {
-  --primary-color: red;
+  --primary-color: #7C3AED;
      
 }
 
 
-
-
 body {
-    font-family: 'Pattaya', 
+    font-family: 'Montserrat', 
     sans-serif;
 }
-
 .centered
 {
 
@@ -29,24 +25,58 @@ h1
 
 .greatime
 {
-width: 300px;
-height:50px;
-margin: auto;
+max-width: 300px;
+
+text-align:center;
 padding-left: 1rem;
 padding-right:1rem ;
 }
 
 .primary-link
 {
-   background-color: var(--primary-color)
-
+    background-color: white;
+    border-radius: 0.6rem;
+    color:var(--primary-color);
+    border: 3px solid green;
 }
 
 
+hr
+{
 
+ margin: 1rem 1rem ;
 
+}
 
+.link
+{
 
+  text-decoration: none;
+
+}
+.secondary-link
+{
+    background-color: white;
+    border-radius: 0.6rem;
+    color:var(--primary-color);
+    border: 3px solid green;
+}
+
+.list-non-bullets
+{
+list-style:none;
+}
+.list-non-bullets
+{
+    display: inline;
+}
+
+.list-inline-bullets
+{
+
+    display: inline;
+    padding : 2rem  1rem;
+}
 
 
 
