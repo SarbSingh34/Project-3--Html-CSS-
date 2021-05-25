@@ -117,7 +117,7 @@ display: inline;
 .web-pc .new-img
 {
 
-    max-width: 450px;
+    max-width: 600px;
     display:block;
     margin:auto;
 
@@ -129,39 +129,67 @@ display: inline;
 color:var(--dark-green);
 
 }
+.new-web
+{
+
+text-align:center;
+
+}
 
 .web-pc .new-web 
 {
 
-padding-left: 29rem;
+padding-left: 10rem;
 color:var(--primary-color);
 
 }
 .section-two
 {
-
     text-align:center;
 }
 .third-one
 {
     text-align:center;
 }
-.part-one
+
+.down-three 
+{
+padding-left:3rem;
+border-bottom-left-radius:1rem;
+}
+.down-one 
+{   text-align:center;
+    padding : 2rem;
+    background-color:var(--primary-color);
+    border-top-right-radius:1rem;
+    color:white;
+}
+.social-links .link
+{
+    padding:1rem;
+    color:white;
+}
+.section-on
 {
 
-    text-align:center;
-    padding-left:10rem;
-    padding-right:1rem; 
-    padding-top:1rem ;
-    padding-right:10rem;
-    background-color:var(--light-grey);
+ padding-left:5rem;
+
 }
-.part-two
+
+.container-center 
 {
-    text-align:center;
-    padding-left:10rem;
-    padding-right:1rem; 
-    padding-top:1rem ;
-    padding-right:10rem;
-    background-color:var(--light-grey);
+
+background-color:var(--light-grey);
+ padding:1rem 1rem;
+ text-align:center;
+
+}
+
+.part-three
+{
+
+background-color:var(--light-grey);
+text-align:center;
+margin:auto;
+width:125rem;
 }
